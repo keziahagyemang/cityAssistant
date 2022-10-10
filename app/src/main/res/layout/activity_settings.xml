@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/dialogstyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <!--
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp">
+
+           <ProgressBar
+               android:id="@+id/progressForAdminAuth"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:visibility="invisible" />
+
+           <ImageButton
+               android:id="@+id/closebutton"
+               style="@style/closebt"
+               android:layout_alignParentEnd="true"
+               android:background="?backgroundColor"
+               android:contentDescription="@string/to_close_the_dialog_box"
+               android:src="@drawable/ic_baseline_close_24" />
+
+       </RelativeLayout>
+
+
+       <TextView
+           style="@style/title"
+           android:text="@string/settings" />
+
+
+       <Button
+           style="@style/divide"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/loginSett"
+           style="@style/settingsbutton"
+           android:contentDescription="@string/log_in_button"
+           android:text="@string/account_details"
+           android:drawableStart="@drawable/ic_baseline_person_24"
+           android:drawablePadding="5dp"
+           tools:ignore="RedundantDescriptionCheck" />
+
+
+
+    <Button style="@style/divide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/feedbSett"
+        style="@style/settingsbutton"
+        android:background="?backgroundColor"
+        android:contentDescription="@string/report_issue_or_provide_feedback"
+        android:drawableStart="@drawable/ic_baseline_feedback_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="?text_color"
+        android:text="@string/feedback" />
+
+    <Button style="@style/divide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/LogoutSett"
+        style="@style/settingsbutton"
+        android:background="?backgroundColor"
+        android:contentDescription="@string/sign_up_button"
+        android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="?text_color"
+        android:text="@string/log_out"
+        tools:ignore="RedundantDescriptionCheck" />
+
+    <Button style="@style/divide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addlocSett"
+        style="@style/settingsbutton"
+        android:layout_marginBottom="10dp"
+        android:background="?backgroundColor"
+        android:contentDescription="@string/sign_up_button"
+        android:drawableStart="@drawable/ic_baseline_admin_panel_settings_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="?text_color"
+        android:text="@string/log_in_as_admin"
+        tools:ignore="RedundantDescriptionCheck" />
+
+
+    -->
+
+
+</LinearLayout>

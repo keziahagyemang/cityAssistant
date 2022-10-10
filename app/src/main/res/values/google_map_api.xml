@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+      <string name="mapsSDKKEy" translatable="false">
+        53b6387f19367f93621fafdc19de70da
+    </string>
+
+    <string name="RESTAPIkey" translatable="false">
+       53b6387f19367f93621fafdc19de70da
+    </string>
+
+    <string name="AtlasClientSecret" translatable="false">
+        lrFxI-iSEg-rOctzIvMuCAQXOym5UFR7e7ZRehd02axrKfF600O9aIMIfmk1I4trRB4ZnFHaEVyKcDowb7_DBb3zth2K3gmuWvZCXuiuecw
+    </string>
+
+    <string name="AtlasClientId" translatable="false">
+        OkryzDZsLGNQZH78-Y52UgztWggmGBTo0iTRm1InIxHiOGjo1DoZa_a0gPtl4PmyqTvtekWllFsqVp4B4EWLj9N66TOGL2
+    </string>
+
+
+</resources>

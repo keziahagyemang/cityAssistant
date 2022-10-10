@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ourMap">
+    <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/mapToolbar"
+                app:title="@string/app_name"
+                app:titleMarginStart="10dp"
+                app:titleTextAppearance="@style/titleappear"
+                style="@style/toolbarmap" />
+
+
+</RelativeLayout>
+
+-->
+
+
+    <RelativeLayout style="@style/relativeOurMap">
+
+
+        <EditText
+            android:id="@+id/editSearch"
+            style="@style/editTextSearch"
+            android:inputType="text" />
+
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/transp"
+            android:contentDescription="@string/settingsIcon"
+            android:src="@drawable/ic_baseline_settings_applications_24"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/searchOurMap"
+            style="@style/searchBt" />
+
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/direButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/transp"
+        android:contentDescription="@string/direction"
+        android:src="@drawable/ic_baseline_directions_24" />
+
+    <ImageButton
+        android:id="@+id/getCurDir"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/transp"
+        android:contentDescription="@string/get_current_location"
+        android:src="@drawable/ic_baseline_gps_fixed_24" />
+
+
+</RelativeLayout>
+
+
+

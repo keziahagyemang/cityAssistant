@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040913094120",
+    "firebase_url": "https://cityassistant-10a77-default-rtdb.firebaseio.com",
+    "project_id": "cityassistant-10a77",
+    "storage_bucket": "cityassistant-10a77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040913094120:android:5e0d45e7e7593436f1c05d",
+        "android_client_info": {
+          "package_name": "com.example.cityassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040913094120-a4d7b81ap50pdi44vg5h2sa2m11chubr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5YRAQffiG6DUPqnFu5xsMoidAXLFBbD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040913094120-a4d7b81ap50pdi44vg5h2sa2m11chubr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

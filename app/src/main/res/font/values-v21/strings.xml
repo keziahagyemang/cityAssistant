@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="last_name">Last Name</string>
+    <string name="app_name">cityAssistant</string>
+    <string name="send">Send</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="city_assistant">City Assistant</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_name">User Name</string>
+    <string name="search">Search</string>
+</resources>
